@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.0.379"
+  },
+  "scripts": {
+    "build-css": "tailwindcss build -i style.css -o css/style.css",
+    "watch-css": "tailwindcss build -i public/input.css -o public/output.css --watch"
+  }
+}
+
